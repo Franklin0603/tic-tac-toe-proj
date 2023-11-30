@@ -1,0 +1,18 @@
+{
+    "1": {
+        "player_name": [["player1", "franklin"], ["player2", "Andre"]],
+        "player1_moves": [["X", "1"], ["X", "2"], ["X", "3"]],
+        "player2_moves": [["O", "4"], ["O", "5"]],
+        "date": "2023-10-01",
+        "game_outcome": {"winner": "player1"},
+        "board": [["X", "X", "X"], ["O", "O", 6], [7, 8, 9]]
+    },
+    "2": {
+        "player_name": [["player1", "franklin"], ["player2", "Andre"]],
+        "player1_moves": [["X", "1"], ["X", "2"], ["X", "3"]],
+        "player2_moves": [["O", "4"], ["O", "5"]],
+        "date": "2023-10-02",
+        "game_outcome": {"winner": "player1"},
+        "board": [["X", "X", "X"], ["O", "O", 6], [7, 8, 9]]
+    }
+}
