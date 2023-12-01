@@ -1,18 +1,78 @@
 {
-    "1": {
-        "player_name": [["player1", "franklin"], ["player2", "Andre"]],
-        "player1_moves": [["X", "1"], ["X", "2"], ["X", "3"]],
-        "player2_moves": [["O", "4"], ["O", "5"]],
-        "date": "2023-10-01",
-        "game_outcome": {"winner": "player1"},
-        "final_board": [["X", "X", "X"], ["O", "O", 6], [7, 8, 9]]
+    "players": {
+        "1": {
+            "name": "ff",
+            "symbol": "X",
+            "last_four_phoneNo": 1234
+        },
+        "2": {
+            "name": "gg",
+            "symbol": "O",
+            "last_four_phoneNo": 5678
+        }
     },
-    "2": {
-        "player_name": [["player1", "franklin"], ["player2", "Andre"]],
-        "player1_moves": [["X", "1"], ["X", "2"], ["X", "3"]],
-        "player2_moves": [["O", "4"], ["O", "5"]],
-        "date": "2023-10-02",
-        "game_outcome": {"winner": "player1"},
-        "final_board": [["X", "X", "X"], ["O", "O", 6], [7, 8, 9]]
+    "games": {
+        "1": {
+            "date": "2023-11-30",
+            "winner_player_id": 1
+        }
+    },
+    "moves": {
+        "1": {
+            "game_id": 1,
+            "player_id": 1,
+            "symbol": "X",
+            "position": 1
+        },
+        "2": {
+            "game_id": 1,
+            "player_id": 2,
+            "symbol": "O",
+            "position": 4
+        },
+        "3": {
+            "game_id": 1,
+            "player_id": 1,
+            "symbol": "X",
+            "position": 2
+        },
+        "4": {
+            "game_id": 1,
+            "player_id": 2,
+            "symbol": "O",
+            "position": 5
+        },
+        "5": {
+            "game_id": 1,
+            "player_id": 1,
+            "symbol": "X",
+            "position": 3
+        }
+    },
+    "game_outcomes": {
+        "1": {
+            "game_id": 1,
+            "winning_condition": [
+                "row",
+                1
+            ],
+            "final_board_state": [
+                [
+                    "X",
+                    "X",
+                    "X"
+                ],
+                [
+                    "O",
+                    "O",
+                    6
+                ],
+                [
+                    7,
+                    8,
+                    9
+                ]
+            ]
+        }
     }
 }
