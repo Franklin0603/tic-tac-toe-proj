@@ -16,7 +16,7 @@ class Game:
         for col in range(3):
             if board[0][col] == board[1][col] == board[2][col] and isinstance(board[0][col], str):
                 self.winner_condition = ['row', row]
-                return f"Winner: {board[row][0]}; Winner condition: {self.winner_condition}"
+                return f"Winner: {board[0][col]}; Winner condition: {self.winner_condition}"
                 return f'Winner: {board[0][col]}'
 
         # Check diagonals

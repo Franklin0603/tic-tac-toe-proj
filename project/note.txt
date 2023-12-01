@@ -1,0 +1,18 @@
+Use git
+
+# list git branches
+git branch
+
+# create new branch
+git branch franklin-dev
+
+
+ git branch
+
+  git checkout franklin-dev
+  git add .
+  git commit -m "add codes"
+  git push
+
+  git branch 
+  git 
