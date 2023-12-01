@@ -11,6 +11,9 @@ class MoveMaker:
         for row in self.square.board:
             print(row)
 
+    def display_board_test(self):
+        return self.square.board
+
     def make_move(self, spot, player):
         if spot in self.position:
             row, col = self.position[spot]
